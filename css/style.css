@@ -13,7 +13,6 @@ body {
     width: 75%;
     height: 100%;
     margin: 0 auto;
-    color: white;
 }
 
 .clearfix::after {
@@ -78,27 +77,31 @@ header li > a:hover {
 }
 
 
-.text-container {
+.jumbotron-text {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.main-text {
+.top-text {
     text-align: center;
     vertical-align: middle;
 }
 
-.article {
-    width: 33%;
+.col {
+    width: 31%;
     height: 100%;
     float: left;
-    padding: 0 26px;
+    position: relative;
 }
 
 main p {
     color: #808080;
     padding-top: 10px;
+}
+
+main p:not(#subtitle) {
+    margin-top: 20px;
 }
 
 #main-centre img {
@@ -109,6 +112,20 @@ main p {
 main h3 {
     color: #7CBB02;
     font-size: 25px;
+}
+
+
+.col-title {
+    height: 20%;
+    margin-bottom: 10px;
+}
+
+#main-centre hr {
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #808080;
 }
 
 /* header */
@@ -161,13 +178,10 @@ header {
 h1 {
     font-size: 50px;
     margin-bottom: 50px;
+    color: white;
 }
 
 /* main */
-
-/* main {
-    height: 1100px;
-} */
 
 #main-top {
     position: relative;
@@ -175,11 +189,11 @@ h1 {
     background-color: #D3D3D3;
 }
 
-.main-text h2 {
+.top-text h2 {
     font-size: 25px;
 }
 
-.main-text {
+.top-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -192,12 +206,17 @@ h1 {
     padding-top: 30px;
 }
 
+#col-center {
+    margin: 0 3%;
+}
+
 hr {
-    color:#808080 ;
+    border:1px solid lightgray ;
 }
 
 #main-bottom {
     height: 460px;
     background-color: red;
 }
+
 
