@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <title>Fluentify</title>
     </head>
@@ -12,18 +14,47 @@
         <header>
             <div class="container">
                 <!-- barra di navigazione -->
-                <div class="navigator">
-                    <div id="logo"></div>
-                    <nav class="nav nav-left"></nav>
-                    <nav class="nav nav-right"></nav>
+                <div class="navigator clearfix">
+                    <div class="float-left" id="logo">
+                        <img src="img/logo.svg" alt="">
+                    </div>
+                    <nav class="float-left nav-left">
+                        <ul class="list">
+                            <li>
+                                <a href="#">il metodo</a>
+                            </li>
+                            <li>
+                                <a href="#">la tecnologia</a>
+                            </li>
+                            <li>
+                                <a href="#">real-life english</a>
+                            </li>
+                            <li>
+                                <a href="#">soluzioni aziendali</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="float-left nav-right">
+                        <ul class="list">
+                            <li>
+                                <a href="#">diventa un tutor</a>
+                            </li>
+                            <li>
+                                <a id="login" class="btn btn-blu" href="#">login</a>
+                            </li>
+                            <li>
+                                <a class="btn btn-green " href="#">struttura un piano</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
                 <!-- /barra di navigazione -->
 
                 <!-- titolo -->
                 <section class="jumbotron">
                     <div class="text-container">
-                        <h1></h1>
-                        <a href=""></a>
+                        <h1>Scegli l'inglese studiato per i professionisti</h1>
+                        <a class="btn-green btn-large btn" href="#">struttura un piano</a>
                     </div>
                 </section>
                 <!-- /titolo -->
