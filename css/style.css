@@ -11,6 +11,7 @@ body {
 
 .container {
     width: 75%;
+    height: 100%;
     margin: 0 auto;
     color: white;
 }
@@ -83,6 +84,32 @@ header li > a:hover {
     transform: translateY(-50%);
 }
 
+.main-text {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.article {
+    width: 33%;
+    height: 100%;
+    float: left;
+    padding: 0 26px;
+}
+
+main p {
+    color: #808080;
+    padding-top: 10px;
+}
+
+#main-centre img {
+    height: 30%;
+    margin: 15px 0;
+}
+
+main h3 {
+    color: #7CBB02;
+    font-size: 25px;
+}
 
 /* header */
 
@@ -97,7 +124,7 @@ header {
 
 .navigator {
     height: 80px;
-    line-height: 80px;
+    line-height: 80px; 
 }
 
 #logo {
@@ -127,7 +154,8 @@ header {
 .jumbotron {
     position: relative;
     width: 50%;
-    height: 400px;
+    height: 430px;
+    
 }
 
 h1 {
@@ -136,3 +164,40 @@ h1 {
 }
 
 /* main */
+
+/* main {
+    height: 1100px;
+} */
+
+#main-top {
+    position: relative;
+    height: 120px;
+    background-color: #D3D3D3;
+}
+
+.main-text h2 {
+    font-size: 25px;
+}
+
+.main-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main-centre {
+    text-align: center;
+    height: 460px;
+    padding-top: 30px;
+}
+
+hr {
+    color:#808080 ;
+}
+
+#main-bottom {
+    height: 460px;
+    background-color: red;
+}
+
