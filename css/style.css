@@ -45,6 +45,7 @@ header a,
 .btn {
     padding: 6px 7px; 
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .btn-green {
@@ -95,9 +96,11 @@ header li > a:hover {
     position: relative;
 }
 
-main p {
+main p ,
+span {
     color: #808080;
     padding-top: 10px;
+    font-size: 18px;
 }
 
 main p:not(#subtitle) {
@@ -133,6 +136,29 @@ main h3 {
     height: 100%;
     float: left;
     padding-top: 40px;
+}
+
+#col-bottom-title ,
+footer h2 {
+    font-size: 35px;
+}
+
+footer ,
+#main-top {
+    height: 120px;
+    background-color: #D3D3D3;
+}
+
+.footer-container {
+    width: 40%;
+    height: 100%;
+    line-height: 120px;
+    float: left;
+    text-align: center;
+}
+
+span {
+    margin-right: 20px;
 }
 
 /* header */
@@ -192,8 +218,6 @@ h1 {
 
 #main-top {
     position: relative;
-    height: 120px;
-    background-color: #D3D3D3;
 }
 
 .top-text h2 {
@@ -225,10 +249,6 @@ hr {
     width: 90%;
 }
 
-#col-bottom-title {
-    font-size: 35px;
-}
-
 #col-bottom-text {
     font-size: 20px;
     margin-bottom: 30px;
@@ -237,4 +257,31 @@ hr {
 #col-bottom-link {
     color: #689FD7;
     font-size: 18px;
+}
+
+/* footer */
+
+footer {
+    margin-top: 30px;
+}
+
+#footer-right {
+    text-align: right;
+}
+
+#select-bar {
+    border-bottom: 2px solid #808080;
+}
+
+#select-bar::after {
+    content: "\25BE";
+    padding-left:40px ;
+    font-size: 30px;
+}
+
+#help {
+    position: fixed;
+    bottom: 0;
+    right: 15%;
+    z-index: 5;
 }
