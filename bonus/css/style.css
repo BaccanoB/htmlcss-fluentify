@@ -50,8 +50,8 @@ p:not(.blu-link) {
 #fs-title {
     margin: 30px 0;
 }
-
 h2 {
+    padding-top: 20px;
     font-size: 20px;
 }
 
@@ -59,6 +59,13 @@ h2 {
     font-size: 12px;
     text-align: center;
     color: #B6E3E9;
+}
+
+.blu-container {
+    width: 22%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
 }
 
 .col {
@@ -79,6 +86,10 @@ h3 {
 #bottom-section p {
     padding-bottom: 20px;
     margin-bottom: 20px;
+}
+
+.footer-col {
+    width: 50%;
 }
 
 /* main */
@@ -125,14 +136,6 @@ h3 {
    
 }
 
-#blu-container {
-    width: 20%;
-    margin-left: 30px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%); 
-}
-
 #blu_box-title {
     color: white;
 }
@@ -142,7 +145,7 @@ h3 {
 }
 
 #bottom-section {
-    height: 500px;
+    height: 450px;
 }
 
 
@@ -179,13 +182,32 @@ h3 {
 
 }
 
-
-
-
-
-
-
-
-
 /* footer */
 
+footer {
+    color: white;
+}
+
+#blu-footer {
+    height: 200px;
+    position: relative;
+    background-color: #0C3259;
+}
+
+#light-blu-footer {
+    height: 400px;
+    background-color: #17406B;
+}
+
+#faq {
+    color: #B8883E;
+}
+
+li {
+    margin: 20px 0;
+    list-style: none;
+}
+
+#footer-col-right {
+    text-align: right;
+}
