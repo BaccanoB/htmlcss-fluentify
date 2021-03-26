@@ -40,14 +40,20 @@ p:not(.blu-link) {
     padding: 10px 13px;
     border-radius: 5px;
     background-color: #7EB802;
-    color: white;
     text-transform: uppercase;
     font-size: 10px;
     text-decoration: none;
 }
 
+.btn,
+#blu_box-title,
+footer {
+    color: white;
+}
+
 #fs-top,
-#fs-title {
+#fs-title,
+#blu_box-text {
     margin: 30px 0;
 }
 h2 {
@@ -57,7 +63,6 @@ h2 {
 
 .blu-link{
     font-size: 12px;
-    text-align: center;
     color: #B6E3E9;
 }
 
@@ -83,9 +88,16 @@ h3 {
     margin: 20px 0;
 }
 
-#bottom-section p {
+#container-bs-title,
+.blu-link,
+#fs-bottom {
+    text-align: center;
+}
+
+#bottom-section p,
+#fs-top p {
     padding-bottom: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .footer-col {
@@ -103,12 +115,7 @@ h3 {
     width: 100%;
 }
 
-#fs-top p {
-    margin-bottom: 20px;
-}
-
 #fs-bottom {
-    text-align: center;
     margin-top: 180px;
 }
 
@@ -134,23 +141,6 @@ h3 {
     position: relative;
     background-color: #0C3259;
    
-}
-
-#blu_box-title {
-    color: white;
-}
-
-#blu_box-text {
-    margin: 30px 0;
-}
-
-#bottom-section {
-    height: 450px;
-}
-
-
-#container-bs-title {
-    text-align: center;
 }
 
 #bs-title {
@@ -183,10 +173,6 @@ h3 {
 }
 
 /* footer */
-
-footer {
-    color: white;
-}
 
 #blu-footer {
     height: 200px;
